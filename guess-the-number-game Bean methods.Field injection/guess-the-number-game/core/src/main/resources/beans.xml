@@ -1,0 +1,24 @@
+<!-- At this point, in the project we switched to all annotations, and were told to delete this file
+I commented it out so it wouldn't hinder the project
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+-->
+    <!-- Previously was: <context:annotation-config/> -->
+   <!-- <context:component-scan base-package="academy.learnprogramming"/> -->
+
+
+
+    <!-- With the component-scan, we don't need these beans because they will be found automatically
+    <bean id="numberGenerator" class="academy.learnprogramming.NumberGeneratorImpl"/>
+
+    <bean id="game" class="academy.learnprogramming.GameImpl">
+    </bean>
+    -->
+<!--
+</beans> -->
